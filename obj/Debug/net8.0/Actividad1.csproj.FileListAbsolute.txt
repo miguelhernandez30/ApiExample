@@ -524,3 +524,4 @@ C:\Users\USUARIO\source\repos\Actividad1\Actividad1\obj\Debug\net8.0\Actividad1.
 C:\Users\USUARIO\source\repos\Actividad1\Actividad1\obj\Debug\net8.0\ref\Actividad1.dll
 C:\Users\USUARIO\source\repos\Actividad1\Actividad1\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\USUARIO\source\repos\Actividad1\Actividad1\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\USUARIO\source\repos\Actividad1\Actividad1\obj\Debug\net8.0\Actividad1.sourcelink.json
