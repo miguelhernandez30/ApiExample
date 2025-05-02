@@ -1,0 +1,165 @@
+[
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "ActualizarReserAcept",
+    "RelativePath": "api/UsuarioAdminDtoes/ActualizarReservaAceptada",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reserva",
+        "Type": "Actividad1.Models.ActualizarReserva",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "ActualizarReserDenegado",
+    "RelativePath": "api/UsuarioAdminDtoes/ActualizarReservaDenegada",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reserva",
+        "Type": "Actividad1.Models.ActualizarReservaDenegado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "ObtenerCantidadPensionados",
+    "RelativePath": "api/UsuarioAdminDtoes/CantidadPensionados/{idAdmin}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAdmin",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "GetClientesPensionados",
+    "RelativePath": "api/UsuarioAdminDtoes/ClientesPensionados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Actividad1.Models.UsuarioEnPension, Actividad1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "PagoEfectivo",
+    "RelativePath": "api/UsuarioAdminDtoes/Pago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagoEfectivo",
+        "Type": "Actividad1.Models.PagoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "PostPedirCupoPensionDto",
+    "RelativePath": "api/UsuarioAdminDtoes/PedirCupo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alojamientoDto",
+        "Type": "Actividad1.Models.AlojamientoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "PostUsuarioAdminDto",
+    "RelativePath": "api/UsuarioAdminDtoes/PensionAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pension",
+        "Type": "Actividad1.Models.PensionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.UsuarioAdminDtoesController",
+    "Method": "PostUsuarioAdminDto",
+    "RelativePath": "api/UsuarioAdminDtoes/RegistrarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Actividad1.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Actividad1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Actividad1.WeatherForecast, Actividad1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
